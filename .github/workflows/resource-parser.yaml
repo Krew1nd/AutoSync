@@ -22,6 +22,6 @@ jobs:
         uses: repo-sync/github-sync@v2
         if: env.PAT
         with:
-          source_repo: "https://github.com/KOP-XIAO/QuantumultX/blob/master/Scripts/resource-parser.js.git"
+          source_repo: "https://github.com/KOP-XIAO/QuantumultX/blob/master/Scripts/resource-parser.js"
           destination_branch: "resource-parser"
           github_token: ${{ secrets.PAT }}
