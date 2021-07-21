@@ -1,7 +1,7 @@
 name: Orz-3-mini-sync
 on:
   schedule:
-    - cron: '4 */2 * * *'
+    - cron: '5 */2 * * *'
   workflow_dispatch:
   watch:
     types: started
